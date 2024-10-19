@@ -5,7 +5,7 @@ touch pagina3.sh
 
 echo "Ahora vamos a agregarle contenido a la pagina 3"
 
-cat << EOF >> pagina3.sh
+cat << EOF >> pagina3.html
 <footer>
         <div>
             <p><a href="pie.html">Pie.html</a></p>
@@ -15,6 +15,8 @@ cat << EOF >> pagina3.sh
     </footer>
 </body>
 </html>
+
 EOF
 
 echo "Tarea terminada"
+

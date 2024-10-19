@@ -2,10 +2,12 @@
 
 echo "Vamos a crear la primera pagina"
 touch pagina1.html
+
 echo "Esta pagina contendra el head de la pagina web"
 
 echo "Vamos a insertar contenido"
-Cat << EOF >> pagina1.html
+
+cat << EOF >> pagina1.html
 <html lang="es">
 <head>
     <meta charset="UTF-8">

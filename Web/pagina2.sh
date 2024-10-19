@@ -15,4 +15,5 @@ cat << EOF >> pagina2.html
         </nav>
     </div
 EOF
+
 echo "Tarea terminada"
