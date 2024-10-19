@@ -1,3 +1,11 @@
+#!/usr/bin/bash
+
+
+echo "vamos a crear index.html"
+touch index.html
+
+cat << EOF >> index.html
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -24,4 +32,8 @@
     </footer>
 </body>
 </html>
+
+EOF
+
+echo "Tarea terminada"
 

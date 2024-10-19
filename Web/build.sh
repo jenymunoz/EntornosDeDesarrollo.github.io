@@ -1,15 +1,20 @@
 #!/usr/bin/bash
 
-echo "Vamos a ejecutar los scripts para que su contenido este dentro de index.sh"
+echo "Vamos a ejecutar los scripts para que su contenido este dentro de index.sh (solo index.sh)"
 
-echo "Ejecutando pagina1.sh"
-./pagina1.sh
+echo "Ejecutando index.sh para que meta su contenido dentro de index.html"
+./index.sh
 
-echo "Ejecutando pagina2.sh"
-./pagina2.sh
+echo "Tarea terminada"
 
-echo "Ejecutando pagina3.sh"
-./pagina3.sh
+#echo "Ejecutando pagina1.sh"
+#./pagina1.sh
+
+#echo "Ejecutando pagina2.sh"
+#./pagina2.sh
+
+#echo "Ejecutando pagina3.sh"
+#./pagina3.sh
 
 
 
