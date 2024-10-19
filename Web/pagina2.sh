@@ -1,11 +1,10 @@
 #!/usr/bin/bash
 
-echo "Vamos a crear la segunda pagina web. Esta va a ser la barra de navegacion"
-touch pagina2.html
+echo "Vamos a hacer que este script le pase el contenido a index.sh"
 
 echo "Ahora vamos a agregarle el contenido"
 
-cat << EOF >> pagina2.html
+cat << EOF >> index.sh
 <body>
     <div>
         <nav>
@@ -17,3 +16,20 @@ cat << EOF >> pagina2.html
 EOF
 
 echo "Tarea terminada"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#echo "Vamos a crear la segunda pagina web. Esta va a ser la barra de navegacion"
+#touch pagina2.html
+
