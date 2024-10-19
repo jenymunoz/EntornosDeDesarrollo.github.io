@@ -1,4 +1,4 @@
-#!/urs/bin/bash
+#!/usr/bin/bash
 
 echo "Vamos a crear la segunda pagina web. Esta va a ser la barra de navegacion"
 touch pagina2.html
