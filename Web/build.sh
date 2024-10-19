@@ -1,13 +1,15 @@
 #!/usr/bin/bash
 
-echo "Vamos a ejecutar los scripts respectivos para que creen las paginas webs"
+echo "Vamos a ejecutar los scripts respectivos para que creen las paginas webs (solo el dos)"
 
-echo "Ejecutando pagina1.sh"
-./pagina1.sh
+#echo "Ejecutando pagina1.sh"
+#./pagina1.sh
+
 echo "Ejecutando pagina2.sh"
 ./pagina2.sh
-echo "Ejecutando pagina3.sh"
-./pagina3.sh
+
+#echo "Ejecutando pagina3.sh"
+#./pagina3.sh
 
 
 
